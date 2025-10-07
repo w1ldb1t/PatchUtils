@@ -5,12 +5,12 @@ PatchUtils is a small collection of CLI tools for working with Git patches.
 ## Utilities
 - `create-patch` - Lets you interactively create a patch file from modified or untracked files, and writes a unified diff patch.
 - `update-patch` - Loads an existing multi-file patch and lets you interactively update specific files.
-- `split-patch` - Splits a multi-file patch into one patch per path, using sanitized file names for easy distribution.
+- `split-patch` - Splits a multi-file patch into one patch per file.
 
 ## Prerequisites
 - `clang`
-- `meson` and `ninja`
-- Development headers for `libgit2` and `ncursesw`
+- `meson` & `ninja`
+- Dev packages for `libgit2` & `ncursesw`
 
 ## Build
 ```sh
